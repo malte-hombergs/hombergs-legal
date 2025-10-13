@@ -2,103 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Privacy Policy – OGC JSON Proxy (vpn.hombergs.top)</title>
+  <title>Privacy Policy | vpn.hombergs.top</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Comprehensive Privacy Policy for the OGC JSON Proxy operated by Malte Hombergs.">
+  <meta name="description" content="Privacy Policy for vpn.hombergs.top, operated by Malte Hombergs.">
   <style>
-    body{font:15px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;color:#111}
-    h1{font-size:1.8rem;margin:.2rem 0 1rem}
-    h2{margin:1.4rem 0 .6rem}
-    h3{margin:1rem 0 .4rem}
-    code{background:#f4f4f4;padding:.1rem .3rem;border-radius:4px}
-    small{color:#666}
+    body{font:16px/1.6 -apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:850px;margin:2rem auto;padding:0 1rem;color:#111}
+    h1,h2{color:#0b3d91}
+    h1{font-size:1.8rem;margin-bottom:1rem}
+    h2{margin-top:1.5rem}
+    a{color:#0b3d91}
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p><strong>Controller:</strong> Malte Hombergs, Email: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a></p>
-  <p><strong>Service:</strong> <em>OGC JSON Proxy</em> available at <a href="https://vpn.hombergs.top/">https://vpn.hombergs.top/</a> (the “Service”). The Service converts OGC WFS/WMS XML responses from public geospatial endpoints into JSON/GeoJSON for use by client applications, including ChatGPT Actions.</p>
 
-  <h2>1. Scope</h2>
-  <p>This Privacy Policy explains what personal data we process when you use the Service, for what purposes and on which legal bases (Art. 6 GDPR), how long we keep data, to whom we may disclose it, and which rights you have as a data subject. It applies to requests made to <code>vpn.hombergs.top</code> and the minimal website routes (e.g., <code>/privacy</code>, <code>/terms</code>). It does not cover the third-party OGC endpoints you choose (e.g., Geoportal Berlin) — their policies also apply when you send requests to them via this proxy.</p>
+  <p><strong>Effective Date:</strong> October 13, 2025</p>
+  <p>This Privacy Policy describes how <strong>vpn.hombergs.top</strong> (“we,” “our,” or “the Service”), operated by <strong>Malte Hombergs</strong>, collects, uses, and protects information when you access or use our API proxy and related web pages.</p>
 
-  <h2>2. Summary (Plain Language)</h2>
+  <h2>1. Data Controller</h2>
+  <p>Name: <strong>Malte Hombergs</strong><br>
+  Email: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a><br>
+  Location: Germany (EU)</p>
+
+  <h2>2. Personal Data We Collect</h2>
+  <p>When you use the Service, we may process limited technical data (“Personal Data”) such as:</p>
   <ul>
-    <li>We do <strong>not</strong> build user profiles and do <strong>not</strong> sell personal data.</li>
-    <li>We keep only standard web-server logs (IP address, timestamp, user agent, request path) for security and troubleshooting.</li>
-    <li>Your OGC query parameters (e.g., <code>endpoint</code>, <code>typenames</code>, <code>bbox</code>) are <strong>forwarded</strong> to the OGC service you select; they are not stored by us beyond transient processing in RAM.</li>
-    <li>Log retention is typically <strong>up to 14 days</strong>, then automatic deletion/rotation.</li>
-    <li>You can contact <a href="mailto:malte@hombergs.net">malte@hombergs.net</a> to exercise your GDPR rights.</li>
+    <li>IP address and timestamp of your request</li>
+    <li>User agent and referring page</li>
+    <li>Query parameters (e.g., <code>endpoint</code>, <code>typenames</code>) necessary to forward your OGC request</li>
   </ul>
 
-  <h2>3. Categories of Data</h2>
-  <h3>3.1 Technical connection data (server logs)</h3>
+  <h2>3. Purpose of Processing</h2>
   <ul>
-    <li>IP address, date/time of access, request method and path, HTTP status code, response size, user agent, referrer (if provided).</li>
-  </ul>
-  <p><em>Purpose:</em> operate and secure the Service, detect abuse (e.g., denial-of-service), diagnose errors, and produce minimal operational metrics.</p>
-  <p><em>Legal basis:</em> Art. 6(1)(f) GDPR (legitimate interests).</p>
-
-  <h3>3.2 Request content you submit</h3>
-  <p>When you call the API (e.g., <code>/ogc/feature</code>), you send parameters such as <code>endpoint</code>, <code>service</code>, <code>typenames</code>, <code>bbox</code>, <code>srsname</code>, <code>filter</code>. These are required to fulfill your request and are <strong>forwarded</strong> to the target OGC server you designated.</p>
-  <ul>
-    <li>We do <strong>not</strong> persist these parameters or the returned geodata, except transiently in memory and the minimal traces present in standard access/error logs (see 3.1).</li>
-  </ul>
-  <p><em>Purpose:</em> fulfill your request (proxying/conversion).</p>
-  <p><em>Legal basis:</em> Art. 6(1)(b) GDPR (contract-like usage of the Service) and Art. 6(1)(f) GDPR (operation/security).</p>
-
-  <h2>4. Retention</h2>
-  <ul>
-    <li><strong>Access/error logs:</strong> routinely rotated and deleted after <strong>up to 14 days</strong>, unless a longer retention is necessary to investigate concrete security incidents or abuse.</li>
-    <li><strong>Transient processing:</strong> request payloads and responses are held in RAM only for the time needed to proxy and deliver the result.</li>
+    <li>Provide and maintain the Service</li>
+    <li>Ensure network and information security</li>
+    <li>Detect and prevent misuse or technical errors</li>
   </ul>
 
-  <h2>5. Recipients and International Transfers</h2>
-  <ul>
-    <li><strong>OGC endpoints you select:</strong> We forward your request parameters to the third-party OGC service (e.g., Geoportal Berlin). That third party becomes an independent controller of the data it receives; their own privacy policy applies.</li>
-    <li><strong>Infrastructure providers:</strong> The Service is hosted on a VPS in the EU/EEA (or an equivalent jurisdiction). Standard server administration tools may process log data for reliability and security.</li>
-  </ul>
-  <p>We do not otherwise disclose personal data to third parties except when required by applicable law or to enforce our terms or defend legal claims. We do not intentionally transfer personal data outside the EEA; if a transfer becomes necessary, we will rely on an adequacy decision (Art. 45 GDPR) or appropriate safeguards (Art. 46 GDPR), such as the EU Standard Contractual Clauses.</p>
+  <h2>4. Legal Basis</h2>
+  <p>Processing is based on our legitimate interests under <strong>Article 6(1)(f) GDPR</strong> (operating a secure, reliable web service) and, when applicable, on <strong>Article 6(1)(b) GDPR</strong> (performance of a service requested by you).</p>
 
-  <h2>6. Cookies and Tracking</h2>
-  <p>We do <strong>not</strong> use cookies or third-party trackers for the API or the minimal policy pages. Analytics scripts are not embedded.</p>
+  <h2>5. Data Retention</h2>
+  <p>Access and error logs are retained for a maximum of <strong>14 days</strong> and then automatically deleted. No other personal data are stored or profiled.</p>
 
-  <h2>7. Automated Decision-Making / Profiling</h2>
-  <p>No automated decision-making or profiling within the meaning of Art. 22 GDPR is performed.</p>
+  <h2>6. Third-Party Services</h2>
+  <p>Requests you make via this proxy are forwarded to external OGC endpoints (e.g., Geoportal Berlin). Those services act as independent data controllers under their own privacy policies. We encourage you to review their terms before using them.</p>
+
+  <h2>7. Data Sharing and Transfers</h2>
+  <p>We do not sell, rent, or trade personal data. Data are processed on a VPS located in the EU. No intentional transfers outside the European Economic Area occur. If a transfer becomes necessary, we rely on adequacy decisions or Standard Contractual Clauses under the GDPR.</p>
 
   <h2>8. Security</h2>
-  <ul>
-    <li>Transport security via HTTPS (TLS) for all external endpoints.</li>
-    <li>Reverse proxy isolation and firewall rules to limit inbound/outbound access.</li>
-    <li>Log minimization and scheduled rotation.</li>
-    <li>Principle of least privilege for system services.</li>
-  </ul>
-  <p>While we take reasonable technical and organizational measures, no internet service can be 100% secure. Please avoid including unnecessary personal data in OGC parameters.</p>
+  <p>All communication is encrypted via HTTPS. Administrative access is restricted. Logs are minimized and rotated regularly. No cookies or tracking technologies are used.</p>
 
   <h2>9. Your Rights (GDPR)</h2>
-  <p>Subject to the legal conditions, you have the following rights: access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction (Art. 18), data portability (Art. 20), and objection (Art. 21). You also have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence or where an alleged infringement took place.</p>
-  <p>To exercise your rights, contact: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a>. For log-based data, please include the approximate time and your IP address to help us identify relevant entries.</p>
-
-  <h2>10. Legal Bases in Detail</h2>
   <ul>
-    <li><strong>Art. 6(1)(b) GDPR</strong> – processing necessary to provide the Service you request (proxying and converting your calls).</li>
-    <li><strong>Art. 6(1)(f) GDPR</strong> – legitimate interests in operating a secure, reliable service; preventing abuse; diagnosing faults.</li>
-    <li>If we are legally obliged to retain or disclose certain data, we rely on <strong>Art. 6(1)(c) GDPR</strong> (legal obligation).</li>
+    <li>Access, Rectification, and Erasure</li>
+    <li>Restriction or Objection to Processing</li>
+    <li>Data Portability</li>
+    <li>Right to lodge a complaint with a supervisory authority</li>
   </ul>
+  <p>To exercise your rights, contact <a href="mailto:malte@hombergs.net">malte@hombergs.net</a>.</p>
 
-  <h2>11. Children’s Data</h2>
-  <p>The Service is intended for technical users and is not directed at children. We do not knowingly process children’s personal data.</p>
+  <h2>10. Children’s Privacy</h2>
+  <p>The Service is intended for technical users and not directed toward minors. We do not knowingly collect data from children under 16.</p>
 
-  <h2>12. Third-Party Policies</h2>
-  <p>When you select an OGC endpoint (e.g., a WFS/WMS server run by a public body), your request parameters are sent to that server. Their privacy policy governs their processing. Please consult their documentation before use. If you do not agree with a third party’s processing, do not route requests to that endpoint via this Service.</p>
+  <h2>11. Updates</h2>
+  <p>We may update this Privacy Policy from time to time. The current version is always available at this address. Changes take effect upon publication.</p>
 
-  <h2>13. Changes to this Policy</h2>
-  <p>We may update this Privacy Policy from time to time to reflect operational, legal, or regulatory changes. The latest version is always available at <a href="https://vpn.hombergs.top/privacy">https://vpn.hombergs.top/privacy</a>. Material changes will be indicated by updating the “Last updated” date below.</p>
+  <h2>12. Contact Information</h2>
+  <p>Questions or concerns about this Privacy Policy may be sent to:<br>
+  <strong>Malte Hombergs</strong><br>
+  Email: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a></p>
 
-  <h2>14. Contact</h2>
-  <p>Questions or requests regarding data protection can be sent to: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a>.</p>
-
-  <p><small>Last updated: 2025-10-13</small></p>
+  <p><em>Last updated on October 13, 2025.</em></p>
 </body>
 </html>
-
