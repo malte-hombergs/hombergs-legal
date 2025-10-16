@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy – CustomGPT “Family Law Berlin / Pankow”</title>
+  <style>
+    :root { --fg:#1b1b1b; --muted:#5a5a5a; --bg:#ffffff; --accent:#0b5fff; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    main { max-width: 900px; margin: 40px auto; padding: 0 20px 60px; }
+    h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 8px; }
+    .subtitle { color: var(--muted); margin: 0 0 28px; }
+    h2 { font-size: 1.25rem; margin-top: 28px; }
+    p { margin: 12px 0; }
+    ul { margin: 8px 0 16px 20px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 36px; font-size: 0.95rem; color: var(--muted); }
+    .small { font-size: 0.95rem; color: var(--muted); }
+    address { font-style: normal; }
+    hr { border: 0; height: 1px; background: #e6e6e6; margin: 28px 0; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">CustomGPT “Family Law Berlin / Pankow”</p>
+  </header>
+
+  <section id="controller">
+    <h2>1. Controller</h2>
+    <p>
+      The controller responsible for data processing in connection with this CustomGPT is:
+    </p>
+    <address>
+      <strong>Malte Hombergs</strong><br />
+      Contact: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a>
+    </address>
+    <p>
+      This Privacy Policy explains how personal data is processed when users interact with the CustomGPT “Family Law Berlin / Pankow”.
+    </p>
+  </section>
+
+  <section id="purpose">
+    <h2>2. Purpose and Functionality</h2>
+    <p>
+      This CustomGPT provides legal information and research assistance regarding family law (especially custody and access/visitation matters) with a focus on Berlin and the Pankow venue. It does not replace legal advice or representation.
+    </p>
+    <p>
+      To deliver information and citations, the CustomGPT queries publicly available legal sources, including (non-exhaustive):
+    </p>
+    <ul>
+      <li>Open Legal Data (Germany) – public court decisions and laws</li>
+      <li>BGH metadata (via BGHeute API) – Federal Court of Justice decisions</li>
+      <li>HUDOC – European Court of Human Rights database</li>
+      <li>Optionally: BVerfG datasets (e.g., CE-BVerfG via Zenodo) for constitutional references</li>
+    </ul>
+    <p>
+      These sources are used solely to display publicly accessible case law and statutes.
+    </p>
+  </section>
+
+  <section id="data-types">
+    <h2>3. Categories of Data Processed</h2>
+    <p>
+      When you use this CustomGPT, the following data may be processed:
+    </p>
+    <ul>
+      <li><strong>User inputs (prompts):</strong> The text you type into the chat is transmitted to OpenAI’s servers to generate a response.</li>
+      <li><strong>Technical connection data:</strong> For operation and security, OpenAI may process information such as IP address, timestamps, and browser information.</li>
+      <li><strong>External API queries:</strong> For research (e.g., “search custody decisions AG Pankow”), HTTPS requests with keywords or legal citations may be sent to external legal databases.</li>
+    </ul>
+    <p>
+      No permanent storage, profiling, or disclosure of personal user data for marketing purposes is performed.
+    </p>
+  </section>
+
+  <section id="special-data">
+    <h2>4. No Processing of Special Categories of Data</h2>
+    <p>
+      Please do <strong>not</strong> enter personal or confidential information (e.g., names of parties, addresses, case details of ongoing proceedings, health data). The CustomGPT is not intended to process individual case or mandate information.
+    </p>
+  </section>
+
+  <section id="sharing">
+    <h2>5. Data Sharing and Recipients</h2>
+    <p>
+      Data processing occurs only for:
+    </p>
+    <ul>
+      <li>Transmitting your prompt to OpenAI to generate an answer, and</li>
+      <li>Submitting keyword-based queries to public legal databases to retrieve publicly accessible documents.</li>
+    </ul>
+    <p>
+      <strong>OpenAI</strong> receives user inputs to process the model response. Public legal databases such as Open Legal Data, BGHeute, and HUDOC receive only the minimal search parameters (e.g., keywords or statute citations). Personal user information is not included in these queries.
+    </p>
+    <p>
+      There is no commercial disclosure or profiling.
+    </p>
+  </section>
+
+  <section id="retention">
+    <h2>6. Storage and Deletion</h2>
+    <p>
+      The CustomGPT itself does not permanently store user prompts. OpenAI may temporarily log interactions to maintain platform security and reliability (see the OpenAI Privacy Policy).
+    </p>
+    <p class="small">
+      OpenAI Privacy Policy: <a href="https://openai.com/privacy" rel="noopener noreferrer">https://openai.com/privacy</a>
+    </p>
+  </section>
+
+  <section id="legal-basis">
+    <h2>7. Legal Bases (GDPR)</h2>
+    <p>
+      Where personal data is processed, it is based on:
+    </p>
+    <ul>
+      <li><strong>Art. 6(1)(b) GDPR</strong> – performance of the service requested by the user; and</li>
+      <li><strong>Art. 6(1)(f) GDPR</strong> – legitimate interests in providing a secure and efficient information service.</li>
+    </ul>
+    <p>
+      As only publicly available information is retrieved from third-party legal sources, further consent is typically not required.
+    </p>
+  </section>
+
+  <section id="security">
+    <h2>8. Data Security</h2>
+    <p>
+      All connections to OpenAI and external APIs are protected via TLS-encrypted HTTPS. No passwords are stored. Only publicly verifiable sources are queried.
+    </p>
+  </section>
+
+  <section id="rights">
+    <h2>9. Data Subject Rights</h2>
+    <p>
+      Under the GDPR, users have the following rights: access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction (Art. 18), and objection (Art. 21). If you believe your personal data has been processed, please contact:
+    </p>
+    <address>
+      <strong>Malte Hombergs</strong><br />
+      Email: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a><br />
+      Subject: Privacy – CustomGPT Family Law Berlin/Pankow
+    </address>
+  </section>
+
+  <section id="changes">
+    <h2>10. Changes to this Policy</h2>
+    <p>
+      This Privacy Policy may be updated to reflect technical or legal changes. The most recent version will always be available at the CustomGPT’s URL.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>11. Contact</h2>
+    <address>
+      <strong>Malte Hombergs</strong><br />
+      Email: <a href="mailto:malte@hombergs.net">malte@hombergs.net</a>
+    </address>
+  </section>
+
+  <hr />
+  <p class="footer">
+    Last updated: <time datetime="2025-10-16">October 16, 2025</time>
+  </p>
+</main>
+</body>
+</html>
